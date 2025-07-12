@@ -13,7 +13,7 @@
     <img  src="C:\Users\Avalo\Desktop\MyWeb\微信图片_20250605014003.jpg" alt="本地图片" class="local-image" width="304" height="228">
     <div class="container">
         <h1 style="text-align:center;">欢的理想咋擦苏擦苏乡</h1>
-        <p>这里是一片远离尘嚣的净土，是我心灵的栖息地。</p>
+        <p>这里是一片远离尘嚣的净土222，是我心灵的栖息地。</p>
         
         <div class="features">
             <div class="feature">
