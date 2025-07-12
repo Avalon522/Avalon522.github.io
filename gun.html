@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>背景图片和音乐演示</title>
+    <style>
+        body {
+            background-image: url("gun.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin: 0;
+            height: 100vh;
+        }
+        .music-player {
+            position: fixed;
+            bottom: 32px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255,255,255,0.7);
+            border-radius: 12px;
+            padding: 16px 32px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;color:#533801;font-size:2.5rem;"></h1>
+    <div class="music-player">
+        <audio controls autoplay loop>
+            <source src="gun.mp3" type="audio/mpeg">
+            您的浏览器不支持音频播放。
+        </audio>
+        <script>
+            window.addEventListener('DOMContentLoaded', function() {
+                var audio = document.querySelector('audio');
+                if (audio) {
+                    audio.play();
+                }
+            });
+        </script>
+    </div>
+</body>
+</html>
